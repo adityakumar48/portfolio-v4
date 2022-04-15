@@ -1,0 +1,57 @@
+.name {
+  font-weight: bold;
+  font-size: 74px;
+  margin-top: 120px;
+}
+.letsConnect {
+  font-size: 28;
+  color: #5c50e4;
+  margin-top: 30px;
+}
+.HeroImg {
+  width: 80%;
+  transition: 0.3s ease-in-out;
+  margin: 0 auto;
+}
+.heroSection {
+  height: 100vh;
+}
+li {
+  padding: 0 10px;
+  margin-top: 6px;
+}
+li i {
+  font-size: 22px;
+  color: #505f79;
+  transition: all 0.3s ease-in-out;
+}
+
+li i:hover {
+  color: #5c50e4;
+}
+.liFirst {
+  padding-left: 0;
+}
+@media only screen and (max-width: 768px) {
+  .name {
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 60px;
+  }
+  .name span {
+    font-size: 40px;
+  }
+  li {
+    margin-top: 10px;
+  }
+  .HeroImg {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .heroSection {
+    height: 120vh;
+  }
+}

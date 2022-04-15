@@ -1,0 +1,52 @@
+.AboutSection {
+  background: #5c50e4;
+  height: 100vh;
+}
+.aboutMyself {
+  text-align: center;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.AboutImg {
+  width: 65%;
+  transition: 0.3s ease-in-out;
+  margin: 0 auto;
+}
+.line {
+  height: 65%;
+  margin-top: 30px;
+}
+.aboutTxt {
+  color: #fff;
+  margin-top: 50px;
+}
+.ImgWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 768px) {
+  .AboutImg {
+    width: 55%;
+    transition: 0.3s ease-in-out;
+    margin: 0 auto;
+  }
+  .line {
+    transform: rotate(90deg);
+    height: 55%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: -70px;
+  }
+  .aboutTxt {
+    margin-top: -440px;
+    text-align: center;
+  }
+  .AboutSection {
+    height: auto;
+  }
+}

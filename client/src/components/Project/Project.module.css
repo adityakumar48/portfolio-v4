@@ -1,0 +1,67 @@
+.ProjectSection {
+  background: #5c50e4;
+  height: 150vh;
+}
+.projects {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.work1 {
+  border-radius: 15px;
+  border: 2px solid white;
+  margin-top: 45px;
+}
+.ovs {
+  font-weight: bold;
+  margin-top: 120px;
+}
+.icons {
+  width: 9%;
+  padding: 10px;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  margin: 10px 20px;
+}
+
+.icons:hover {
+  background: #cfcfcf;
+  border: 2px solid white;
+}
+.imgWrapper {
+  margin: 0 auto;
+}
+.work2 {
+  border-radius: 15px;
+  border: 2px solid white;
+  margin-top: 150px;
+}
+.wb {
+  font-weight: bold;
+  margin-top: 230px;
+}
+@media only screen and (max-width: 768px) {
+  .ProjectSection {
+    height: auto;
+  }
+  .ovs {
+    font-weight: bold;
+    margin-top: 40px;
+  }
+  .icons {
+    width: 14%;
+    padding: 10px;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    margin: 10px 20px;
+  }
+  .wb {
+    margin-top: 60px;
+    position: relative;
+  }
+  .work2 {
+    margin-top: 26px;
+    margin-bottom: 25px;
+  }
+}

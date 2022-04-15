@@ -1,0 +1,45 @@
+.GithubSection {
+  height: 110vh;
+}
+.Github {
+  text-align: center;
+  font-weight: bold;
+  margin: 30px 0;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-weight: 500;
+}
+.card {
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(56, 55, 55, 0.2);
+  transition: 0.3s;
+  cursor: pointer;
+  position: relative;
+  padding-top: 0;
+  padding-bottom: 30px;
+}
+.text {
+  font-size: 15px;
+}
+.cardLink svg {
+  margin-top: 10px;
+  fill: #5c50e4;
+}
+.cardLink {
+  bottom: 0;
+  position: absolute;
+  margin: 10px;
+  left: 0;
+  padding-left: 20px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+@media only screen and (max-width: 768px) {
+  .GithubSection {
+    height: auto;
+  }
+}

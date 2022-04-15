@@ -1,0 +1,47 @@
+.whatiDo {
+  text-align: center;
+  font-weight: bold;
+  margin: 30px 0;
+}
+.whatiDoSection {
+  height: 100vh;
+}
+.whatIDoIMG {
+  margin-top: 70px;
+  width: 100%;
+}
+.icons {
+  width: 8%;
+  padding: 10px;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  margin: 10px 20px;
+}
+
+.icons:hover {
+  background: #cfcfcf;
+  border: 2px solid white;
+}
+
+.imgWrapper {
+  margin-top: 55px;
+}
+@media only screen and (max-width: 768px) {
+  .icons {
+    width: 16%;
+    transition: all 0.3s ease-in-out;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .imgWrapper {
+    margin: 20px 20px;
+  }
+  .whatIDoIMG {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .whatiDoSection {
+    height: auto;
+  }
+}

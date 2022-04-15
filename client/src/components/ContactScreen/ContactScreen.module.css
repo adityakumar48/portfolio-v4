@@ -1,0 +1,61 @@
+.contactScreen {
+  height: 90vh;
+  background: #5c50e4;
+  color: #fff;
+}
+.contactAbout {
+  text-align: center;
+  margin: 10px auto;
+  margin-bottom: 35px;
+}
+.contact {
+  margin-top: 20px 0;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+.inputName {
+  padding: 1em 16px 1em 1em;
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.inputMsg {
+  padding: 1em 16px 1em 1em;
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.textarea {
+  padding: 1em 16px 1em 1em;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  resize: none;
+  width: 30%;
+}
+.ContactBtn {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  color: #5c50e4;
+}
+@media only screen and (max-width: 768px) {
+  .inputName,
+  .inputMsg {
+    width: 300px;
+  }
+  .textarea {
+    width: 310px;
+  }
+}
