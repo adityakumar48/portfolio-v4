@@ -9,7 +9,7 @@ const app = express();
 
 app.use(cors());
 
-const PORT = 8000;
+const PORT = process.env.PORT;
 
 
 const notion = new Client({auth:process.env.SECRET});
