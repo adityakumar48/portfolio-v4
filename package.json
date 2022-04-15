@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "start":"node server",
+   "test":"node server",
    "client":"cd client && npm start",
    "dev": "concurrently \"nodemon server.js\" \"npm run client\"",
-   "test": "echo \"Error: no test specified\" && exit 1"
+   "start": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
