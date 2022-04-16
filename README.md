@@ -9,8 +9,9 @@ web developer portfolio created in react + node + notion as a database for conta
   - Bootstrap
 
 
+Create .env File:
 
-### Creare .env File 
-
-#### SECRET=<YOUR SECRET>
-#### DATABASEID=<YOUR DATABASE ID>
+```sh
+SECRET=<YOUR SECRET>
+DATABASEID=<YOUR DATABASE ID>
+```
