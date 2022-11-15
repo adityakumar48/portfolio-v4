@@ -12,7 +12,7 @@ const ContactScreen = () => {
 
   function submitform(e){
     e.preventDefault();
-    fetch("http://localhost:8000/submitform",{
+    fetch("https://aditya-backend.herokuapp.com/submitform",{
       method: 'POST',
       headers:{
         "Accept":"application/json",

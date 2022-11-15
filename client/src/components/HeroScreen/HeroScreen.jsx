@@ -1,25 +1,22 @@
 import React, { useEffect, useState } from 'react'
 import AboutScreen from '../AboutScreen/AboutScreen'
 import styles from './HeroScreen.module.css'
-import WhatIDo from '../WhatIDo/WhatIDo';
-import Project from '../Project/Project';
-import ContactScreen from '../ContactScreen/ContactScreen';
-import GitubRepos from '../GitubRepos/GitubRepos';
+
 
 
 
 const HeroScreen = () => {
     const [timer, setTimer] = useState([
-        "/images/FirstHero.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/FirstHero.png",
     ])
 
 
     useEffect(() => setInterval(() => {
         const images = [
-            "/images/FirstHero.png",
-            "/images/SecondHero.png",
-            "/images/ThirdHero.png",
-            "/images/FourthHero.png"
+            "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/FirstHero.png",
+            "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/SecondHero.png",
+            "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/ThirdHero.png",
+            "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/FourthHero.png"
         ]
 
         let random = Math.floor(Math.random() * 4)

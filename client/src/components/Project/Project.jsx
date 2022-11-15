@@ -3,22 +3,22 @@ import styles from './Project.module.css'
 const Project = () => {
 
     const Imagesfor1 = [
-        "/images/html.png",
-        "/images/css.png",
-        "/images/js.png",
-        "/images/bootstrap.png",
-        "/images/php.png",
-        "/images/mysql.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/html.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/css.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/js.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/bootstrap.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/php.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/mysql.png",
     ]
     const Imagesfor2 = [
-        "/images/html.png",
-        "/images/css.png",
-        "/images/js.png",
-        "/images/heroku.png",
-        "/images/git.png",
-        "/images/nodejs.png",
-        "/images/linux.png",
-        "/images/express.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/html.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/css.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/js.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/heroku.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/git.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/nodejs.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/linux.png",
+        "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/express.png",
     ]
 
     return (
@@ -31,7 +31,7 @@ const Project = () => {
                         </h1>
                     </div>
                     <div className="col-md-6">
-                        <img className={`${styles.work1}`} src="/images/work-1.png" alt="" />
+                        <img className={`${styles.work1}`} src="https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/work-1.png" alt="" />
                     </div>
                     <div className="col-md-6">
                         <h2 className={`${styles.ovs} text-white text-center`}>Online Voting System</h2>
@@ -51,7 +51,7 @@ const Project = () => {
                         </div>
                     </div>
                     <div className="col-md-6">
-                        <img className={`${styles.work2}`} src="/images/work-2.png" alt="" />
+                        <img className={`${styles.work2}`} src="https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/work-2.png" alt="" />
                     </div>
                 </div>
             </div >

@@ -5,26 +5,26 @@ import ContactScreen from '../ContactScreen/ContactScreen';
 import GitubRepos from '../GitubRepos/GitubRepos';
 
 const Images = [
-    "/images/html.png",
-    "/images/css.png",
-    "/images/js.png",
-    "/images/chart.png",
-    "/images/bootstrap.png",
-    "/images/php.png",
-    "/images/heroku.png",
-    "/images/git.png",
-    "/images/firebase.png",
-    "/images/mongo.png",
-    "/images/mysql.png",
-    "/images/nodejs.png",
-    "/images/netlify.png",
-    "/images/python.png",
-    "/images/react.png",
-    "/images/linux.png",
-    "/images/cpp.png",
-    "/images/github.png",
-    "/images/xampp.png",
-    "/images/express.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/html.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/css.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/js.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/chart.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/bootstrap.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/php.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/heroku.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/git.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/firebase.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/mongo.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/mysql.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/nodejs.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/netlify.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/python.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/react.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/linux.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/cpp.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/github.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/xampp.png",
+    "https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/express.png",
 
 ]
 
@@ -53,7 +53,7 @@ const WhatIDo = () => {
                         </div>
                         <div className="col-md-4">
                             <div className={`mx-auto`}>
-                                <img src="/images/working.png" className={`${styles.whatIDoIMG} rounded mx-auto d-block`} alt="" />
+                                <img src="https://raw.githubusercontent.com/adityakumar48/portfolio-v4/master/client/public/images/casual-life-3d-boy-working.png" className={`${styles.whatIDoIMG} rounded mx-auto d-block`} alt="" />
                             </div>
                         </div>
 

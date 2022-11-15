@@ -3,9 +3,11 @@
 /.env
 client/.env
 ./node_modules
+node_modules
 client/node_modules
-
+/client/build
 # misc
+.env
 .DS_Store
 .env.local
 .env.development.local
